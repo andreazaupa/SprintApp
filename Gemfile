@@ -18,7 +18,7 @@ gem 'paper_trail'
 gem 'stringex'
 gem 'settingslogic'
 gem 'capistrano', :group=>"development"
-
+gem 'rvm-capistrano', :group=>"development"
 # Assets
 gem 'carrierwave'
 gem 'mini_magick'
