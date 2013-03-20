@@ -60,15 +60,15 @@ Timetracker::Application.configure do
   
   # ActionMailer Config
   config.action_mailer.perform_deliveries = false
-  config.action_mailer.default_url_options = { :host => 'sprintapp.com' }
+  config.action_mailer.default_url_options = { :host => 'dsprint.azaupa.info' }
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-    :address => 'smtp.sendgrid.net',
-    :port => '587',
-    :authentication => :plain,
-    :user_name => ENV['SENDGRID_USERNAME'],
-    :password => ENV['SENDGRID_PASSWORD'],
-    :domain => 'sprintapp.com'
-  }
+  ##config.action_mailer.smtp_settings = {
+   # :address => 'smtp.sendgrid.net',
+   # :port => '587',
+   # :authentication => :plain,
+   # :user_name => ENV['SENDGRID_USERNAME'],
+   # :password => ENV['SENDGRID_PASSWORD'],
+   # :domain => 'sprintapp.com'
+  #}
     
 end
