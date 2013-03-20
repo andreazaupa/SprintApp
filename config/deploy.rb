@@ -1,3 +1,4 @@
+
 require "bundler/capistrano"
 set :rvm_ruby_string, "1.9.3-p385"#"1.8.7-p371"
 require "rvm/capistrano"
@@ -12,7 +13,7 @@ set :deploy_via, :remote_cache
 set :use_sudo, false
 
 set :scm, "git"
-set :repository, "git@github.com:andreazaupa/SprintApp.git"
+set :repository, "git://github.com/andreazaupa/SprintApp.git"
 set :branch, "master"
 
 default_run_options[:pty] = true
