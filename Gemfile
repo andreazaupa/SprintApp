@@ -17,6 +17,7 @@ gem 'haml'
 gem 'paper_trail'
 gem 'stringex'
 gem 'settingslogic'
+gem 'capistrano', :group=>"development"
 
 # Assets
 gem 'carrierwave'
