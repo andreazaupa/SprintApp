@@ -5,7 +5,7 @@ gem "mysql2"
 gem 'pg'	
 gem 'foreman'
 gem 'thin'
-
+gem "newrelic_rpm"
 gem 'cancan'
 gem 'activeadmin', :git => 'git://github.com/macfanatic/active_admin.git', branch: 'stable_batch_actions'
 gem 'sass-rails'
